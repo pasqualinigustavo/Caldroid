@@ -1,18 +1,64 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url 'https://dl.bintray.com/pasqualinigustavo/IntlPhoneInput/'
+    }
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+    google()
+}
+
+ext {
+    bintrayRepo = 'caldroid'
+    bintrayName = 'caldroidlib'
+
+    publishedGroupId = 'com.github.pasqualinigustavo'
+    libraryName = 'caldroidlib'
+    artifact = 'caldroidlib'
+
+    libraryDescription = 'Caldroid Lib'
+
+    siteUrl = 'https://github.com/pasqualinigustavo/CaldroidLib'
+    gitUrl = 'https://github.com/pasqualinigustavo/CaldroidLib'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'pasqualinigustavo'
+    developerName = 'Gustavo Pasqualini'
+    developerEmail = 'pasqualini.gustavo@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 22
+        minSdkVersion 14
+        targetSdkVersion 27
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.2.0'
-    compile 'com.darwinsys:hirondelle-date4j:1.5.1'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.darwinsys:hirondelle-date4j:1.5.1'
 }
 
 apply from: 'https://raw.githubusercontent.com/shamanland/gradle-mvn-push/cc18d56549cdea03f744b6fff27911569394073e/gradle-mvn-push.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

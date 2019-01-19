@@ -1,13 +1,29 @@
 apply plugin: 'com.android.application'
 
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+    google()
+}
+
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.caldroidsample"
-        minSdkVersion 8
-        targetSdkVersion 22
+        minSdkVersion 14
+        targetSdkVersion 27
     }
 
     buildTypes {
@@ -19,7 +35,8 @@ android {
 }
 
 dependencies {
-    compile project(':caldroid')
-    compile 'com.android.support:support-v4:22.2.0'
-    compile 'com.android.support:appcompat-v7:22.2.0'
+    implementation project(':caldroid')
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.darwinsys:hirondelle-date4j:1.5.1'
 }
