@@ -11,9 +11,6 @@ buildscript {
 repositories {
     mavenLocal()
     maven {
-        url 'https://dl.bintray.com/pasqualinigustavo/IntlPhoneInput/'
-    }
-    maven {
         url 'https://maven.google.com/'
         name 'Google'
     }
@@ -22,18 +19,18 @@ repositories {
 
 ext {
     bintrayRepo = 'caldroid'
-    bintrayName = 'caldroidlib'
+    bintrayName = 'caldroid'
 
     publishedGroupId = 'com.github.pasqualinigustavo'
-    libraryName = 'caldroidlib'
-    artifact = 'caldroidlib'
+    libraryName = 'caldroid'
+    artifact = 'caldroid'
 
     libraryDescription = 'Caldroid Lib'
 
-    siteUrl = 'https://github.com/pasqualinigustavo/CaldroidLib'
-    gitUrl = 'https://github.com/pasqualinigustavo/CaldroidLib'
+    siteUrl = 'https://github.com/pasqualinigustavo/caldroid'
+    gitUrl = 'https://github.com/pasqualinigustavo/caldroid'
 
-    libraryVersion = '0.0.1'
+    libraryVersion = '0.0.2'
 
     developerId = 'pasqualinigustavo'
     developerName = 'Gustavo Pasqualini'
@@ -59,6 +56,5 @@ dependencies {
     implementation 'com.darwinsys:hirondelle-date4j:1.5.1'
 }
 
-apply from: 'https://raw.githubusercontent.com/shamanland/gradle-mvn-push/cc18d56549cdea03f744b6fff27911569394073e/gradle-mvn-push.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
