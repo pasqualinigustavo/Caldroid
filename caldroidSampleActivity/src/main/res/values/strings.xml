@@ -6,4 +6,309 @@
     <string name="show_dialog">Show Dialog</string>
     <string name="undo">Undo</string>
 
+    <!--SalesForce-->
+    <string name="salesforce_id">6d9f894a-091e-4616-b6f4-543b9c357e3e</string>
+    <string name="salesforce_access_token">ewcnqeqhcsf35ht4frd3s48t</string>
+    <string name="salesforce_gcm_sender_id">1074063341580</string>
+    <!--<string name="salesforce_gcm_sender_id">108731630418</string>-->
+
+    <string name="flurry_id">92ZR43KXZ2KCX383KFYN</string>
+    <string name="jeenga_id">cb3b3b25-2391-42e3-ad44-f961407231ed</string>
+    <string name="analytics_id">UA-12855684-2</string>
+
+    <!--SplashActivity-->
+    <string name="activity_splash_lbl_version_code">VERSÃO %1$s</string>
+    <string name="activity_splash_lbl_version">Versão</string>
+    <string name="activity_splash_lbl_message_welcome">BUSQUE MENOS. VIAJE MAIS.</string>
+
+    <!--PreLoginActivity-->
+    <string name="txt_accept_terms">Ao se registrar você aceita os nossos <a href="">termos de uso</a> e aceita receber comunicações do Voopter e parceiros.</string>
+    <string name="text_nao_economiza"><u>Não quero economizar em passagens aéreas</u></string>
+    <string name="text_login_new1">INICIE SUA SESSÃO</string>
+    <string name="text_login_new2">É <b>gratis</b> e te ajuda a <b>economizar</b>\nnas passagens aéreas</string>
+    <string name="create_account">CRIE UMA CONTA</string>
+    <string name="enter_facebook">ENTRAR COM FACEBOOK</string>
+    <string name="title_login">LOGIN</string>
+    <string name="enter">ENTRAR</string>
+
+    <!--LoginActivity-->
+    <string name="text_enter2">Entre e tenha acesso à ferramentas\nexclusivas, como o alerta de preços e\nsincronização em todos os seus\ndispositivos.</string>
+    <string name="esqueci_senha">Esqueci minha senha</string>
+    <string name="nao_tenho_cadastro">Não tenho cadastro</string>
+    <string name="title_entrar">ENTRAR</string>
+
+    <!--EditAccountActivity-->
+    <string name="gallery">Galeria</string>
+    <string name="camera">Câmera</string>
+    <string name="tempo_real">Tempo real</string>
+    <string name="minha_conta">MINHA CONTA</string>
+    <string name="salvar">Salvar</string>
+    <string name="hint_data_nascimento">Data de nascimento</string>
+    <string name="alterar_senha">Alterar senha</string>
+    <string name="desconectar">DESCONECTAR</string>
+    <string name="user_updated">Usuário alterado com sucesso.</string>
+    <string name="error_update">Ocorreu um erro ao efetuar a alteração. Por favor tente novamente.</string>
+
+    <!--CreateAccountActivity-->
+    <string name="activity_create_account_lbl_create">CRIE SUA CONTA</string>
+    <string name="hint_edite_nome">Digite seu nome</string>
+    <string name="hint_edite_email">Digite seu email</string>
+    <string name="hint_edite_senha">Digite sua senha</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_cidade_partida">Cidade de partida usual</string>
+    <string name="hint_repita_senha">Repita a senha</string>
+    <string name="criar_conta">CRIAR CONTA</string>
+    <string name="text_enter">Cadastre-se e tenha acesso à\nferramentas exclusivas, como o alerta de \n preços e sincronização em todos os\nseus dispositivos.</string>
+    <string name="inform_mail_valid">Informe um e-mail válido</string>
+    <string name="identic_pass">A senha e a confirmação de senha devem ser idênticas</string>
+
+    <!--MenuFragment-->
+    <string name="menu_ofertas2">PROMOÇÕES E DICAS</string>
+    <string name="menu_buscar2">PESQUISA DE PASSAGENS</string>
+    <string name="menu_melhores_precos2">PASSAGENS BARATAS</string>
+    <string name="menu_alertas">ALERTAS</string>
+    <string name="menu_config">CONFIGURAÇÕES</string>
+
+    <!--menu_header_no_user-->
+    <string name="menu_header_no_user__lbl_message">ENTRE / CRIE SUA CONTA\npara usar alertas e outros recursos.</string>
+
+    <!--row_offer-->
+    <string name="melhores_precos_partindo">PASSAGENS BARATAS\nPARTINDO DE</string>
+    <string name="encontrado_usuarios">Encontrados pelos usuários do Voopter</string>
+    <string name="pic_choose_question">Selecione de onde quer a imagem</string>
+    <string name="qualquer_lugar">QUALQUER LUGAR</string>
+
+    <!--row_alert-->
+    <string name="Entre">Entre</string>
+    <string name="a_partir_de">A partir de</string>
+    <string name="Ate">Até</string>
+    <string name="e_min">e</string>
+    <string name="passagem_encontra">PASSAGEM ENCONTRADA!</string>
+    <string name="por_menos">Por menos de</string>
+
+    <!--HomeFragment-->
+    <string name="encontre_passagem">ENCONTRE SUA PASSAGEM</string>
+
+    <!--AboutFragment-->
+    <string name="fragment_about_lbl_title">VOOPTER COMPARA PREÇOS DE PASSAGENS ÁREAS E HOTÉIS DE CENTENAS DE COMPANHIAS ÁREAS E AGÊNCIAS DE VIAGENS ONLINE.</string>
+    <string name="AboutText1">Assim é Voopter: grátis, intuitivo e com formas únicas de pesquisar passagens áreas e hotéis que ajudam você a economizar o seu dinheiro e também o seu tempo. Grande achado, não? E por isso mesmo não deve ficar em segredo: você compartilha os seus resultados com seus amigos, e Voopter compartilha com você as melhores ofertas de companhias aéreas e agências de viagens.</string>
+    <string name="AboutHeader2">Voopter Buscador de Passagens Aéreas</string>
+    <string name="AboutText2">Está indeciso sobre quando viajar? Quer saber que dia tem a melhor tarifa? Voopter possui um exclusivo calendário multidatas que permite que você encontre, em apenas uma pesquisa, os melhores preços da maioria de páginas que venden viagens na internet, de agências online a companhias lowcost. não é uma maravilha?</string>
+    <string name="AboutHeader3"> </string>
+    <string name="AboutText3"> </string>
+    <string name="AboutHeader4">O que Voopter não é</string>
+    <string name="AboutText4">O Voopter, como você está vendo, é muita coisa, mas não é uma agência de viagens. Por tanto, não vende, emite ou reserva passagens Áreas, hotéis ou pacotes. Voopter é um metabuscador que lista as melhores alternativas, de acordo com os critérios selecionados, para que você compare e decida onde quer realizar sua compra. Que tal começar agora?</string>
+
+    <!--ConfigFragment-->
+    <string name="sua_conta">SUA CONTA</string>
+    <string name="editar">Editar</string>
+    <string name="nossa_politica">Nossa política de uso</string>
+    <string name="sobre_voopter">Sobre o Voopter</string>
+
+    <!--AlertsFragment-->
+    <string name="create_alert">CRIAR NOVO ALERTA</string>
+    <string name="crie_alerta">CRIE UM ALERTA</string>
+    <string name="ou_logue_se">Ou entre com sua\nconta para ver seus alertas criados</string>
+    <string name="empty_alerta">Você não possui alertas de preços criados.</string>
+    <string name="confirm_delete_alert">Deseja realmente remover este alerta?</string>
+    <string name="error_on_delete">Não foi possível remover o alerta. Por favor, tente novamente.</string>
+    <string name="question_edit_delete">Selecione a ação que deseja</string>
+    <string name="edit_alerta">Editar alerta</string>
+    <string name="remove_alert">Remover alerta</string>
+
+    <!--NewAlertActivity-->
+    <string name="criar_alerta">SALVAR ALERTA</string>
+    <string name="editar_alerta">EDITAR ALERTA</string>
+    <string name="new_alert">NOVO ALERTA</string>
+    <string name="voltar_ate">VOLTAR ATË</string>
+    <string name="origem">ORIGEM</string>
+    <string name="destino">DESTINO</string>
+    <string name="rs">R$</string>
+    <string name="email">E-MAIL</string>
+    <string name="periodo_de_viagem">PERÍODO DE VIAGEM</string>
+    <string name="indique_periodo">Indique o período de datas em que você poderia viajar</string>
+    <string name="ir_a_partir_de">IR A PARTIR DE</string>
+    <string name="message_sucesso_alerta">Alerta criado com sucesso.</string>
+    <string name="message_sucesso_edit_alerta">Alerta alterado com sucesso.</string>
+    <string name="error_value_zero">O valor deve ser maior que zero.</string>
+    <string name="error_aeroporto_origem">Informe o aeroporto de origem.</string>
+    <string name="error_aeroporto_destino">Informe o aeroporto de destino.</string>
+
+    <!--Calendar-->
+    <string name="selecione_ate">SELECIONE ATÉ</string>
+    <string name="quatro_datas">4 DATAS</string>
+    <string name="de_ida">DE IDA</string>
+    <string name="datas_ida">DATAS DE IDA</string>
+    <string name="datas_volta">DATAS DE VOLTA</string>
+    <string name="de_volta">DE VOLTA</string>
+    <string name="datas_ida_alerta">IR A PARTIR DE</string>
+    <string name="datas_volta_alerta">VOLTAR ATÉ</string>
+
+    <!--BetterPricesFragment-->
+    <string name="melhores_precos_title">Passagens Baratas</string>
+    <string name="nacionais">NACIONAIS</string>
+    <string name="internacionais">INTERNACIONAIS</string>
+    <string name="especifico">ESPECÍFICO</string>
+    <string name="passagem_barata">PASSAGENS BARATAS IDA E VOLTA PARTINDO DE:</string>
+    <string name="qualquer_cidade"><![CDATA[<style bold>QUALQUER CIDADE</style>]]></string>
+    <string name="selecione_cidade_aeroporto">SELECIONE A CIDADE OU O AEROPORTO DE ORIGEM</string>
+
+    <!--OfferDetailsFragment-->
+    <string name="offer_details_title_lbl_destiny">Destino:</string>
+    <string name="offer_details_title_lbl_source">Partindo de:</string>
+    <string name="offer_details_title_lbl_when">Quando viajar:</string>
+    <string name="offer_details_title_lbl_company">Pra viajar com:</string>
+    <string name="offer_details_title_lbl_readmore">Ler mais</string>
+
+    <string name="quer_voar">Você quer voar partindo de outra cidade ou para um destino diferente? Faça sua busca com o Voopter! :)</string>
+    <string name="precos_citados">Os preços apresentados no texto e na tabela são para passagens de ida e volta, com as taxas de embarque e encargos de emissão, que variam de acordo com o aeroporto e o vendedor escolhidos. As taxas podem ser conferidas diretamente na página do vendedor.
+\n\n
+Os valores citados no texto e na tabela são válidos por tempo indeterminado e podem mudar de acordo com a disponibilidade de lugares no voo. Confira sempre o valor final da sua passagem, antes de efetuar a compra.</string>
+
+    <!--view_bottom_better_prices-->
+    <string name="buscar_mais_passagens">BUSCAR MAIS PASSAGENS</string>
+    <string name="precos_citados_better_prices">Os preços apresentados na tabela são para passagens de ida e volta, com as taxas de embarque e encargos de emissão, que variam de acordo com o aeroporto e o vendedor escolhidos. As taxas podem ser conferidas diretamente na página do vendedor.
+\n\n
+Os valores citados na tabela são válidos por tempo indeterminado e podem mudar de acordo com a disponibilidade de lugares no voo. Confira sempre o valor final da sua passagem, antes de efetuar a compra.</string>
+    <string name="ofertas">OFERTAS</string>
+
+    <!--view_no_results-->
+    <string name="nenhum_resultado">Não foram encontrados resultados.</string>
+    <string name="tente_novamente2">Por favor, tente outra vez usando outras combinações de dias ou cidades.</string>
+    <string name="valores_tabela">Os valores citado na tabela são válidos por tempo indeterminado e podem mudar de acordo com a disponibilidade de lugares no voo. Confira sempre o valor final da sua passagem, antes de efetuar a compra.</string>
+
+    <!--SearchTicketsFragment-->
+    <string name="limpar">Limpar</string>
+    <string name="adulto">ADULTO</string>
+    <string name="adultos">ADULTOS</string>
+    <string name="crianca">CRIANÇA</string>
+    <string name="criancas">CRIANÇAS</string>
+    <string name="bebe">BEBÊ</string>
+    <string name="bebes">BEBÊS</string>
+    <string name="adicione_4_datas">ADICIONE ATÉ 4 DATAS</string>
+    <string name="ida">IDA</string>
+    <string name="volta">VOLTA</string>
+    <string name="idaevolta">IDA E VOLTA</string>
+    <string name="soida">SÓ IDA</string>
+    <string name="message_select_go_date">Selecione pelo menos uma data de ida</string>
+    <string name="message_select_return_date">Selecione pelo menos uma data de volta</string>
+    <string name="buscar_passagens">BUSCAR PASSAGENS</string>
+
+    <!--row_ticket-->
+    <string name="opcoes">OPÇÕES</string>
+
+    <!--SearchTicketsResultFragment-->
+    <string name="criaralerta">CRIAR ALERTA</string>
+    <string name="nova_busca">NOVA BUSCA</string>
+    <string name="search_sucess">Comparação de passagens aéreas realizadas com</string>
+    <string name="search_sucess1">sucesso</string>
+    <string name="tente_novamente">Por favor, tente outra vez usando outras\ncombinações de dias ou cidades.</string>
+    <string name="fazer_nova_busca">FAZER NOVA BUSCA</string>
+    <string name="message_prices_site">Preços para crianças e bebês aparecerão no site vendedor</string>
+    <string name="message_loading_tickets">Buscando passagens...</string>
+
+    <!--SearchTicketsDetailsFragment-->
+    <string name="ver_site">VER NO SITE</string>
+    <string name="guardar_e_comprar">COMPARTILHAR E COMPRAR MAIS TARDE</string>
+    <string name="horarios_de_ida">OPÇÕES DE IDA</string>
+    <string name="horarios_de_volta">OPÇÕES DE VOLTA</string>
+    <string name="passagens_aereas">Passagens aéreas de</string>
+    <string name="parada">PARADA</string>
+    <string name="paradas">PARADAS</string>
+    <string name="send_to">Compartilhar com:</string>
+    <string name="prefix_operadora">NO SITE</string>
+    <string name="para">para</string>
+    <string name="por">por</string>
+    <string name="direto">DIRETO</string>
+    <string name="direto_sigla">D</string>
+
+    <!--TicketsFilterActivity-->
+    <string name="filtrar">FILTRAR</string>
+    <string name="limpar_filtros">LIMPAR FILTROS</string>
+    <string name="so_diretos">SÓ VOOS DIRETOS</string>
+    <string name="horarios_ida">HORÁRIOS DE IDA</string>
+    <string name="horarios_volta">HORÁRIOS DE VOLTA</string>
+    <string name="entre">Entre</string>
+    <string name="e">e</string>
+    <string name="site_vendedor">SITE VENDEDOR</string>
+
+    <!--Messages-->
+    <string name="message_close_app">Clique novamente para sair...</string>
+    <string name="label_please_wait">Aguarde</string>
+    <string name="label_loading">Carregando...</string>
+    <string name="message_confirmation_logoff">Deseja realmente sair?</string>
+    <string name="msg_field_required">Campo obrigatório</string>
+    <string name="error_bad_request">Problemas ao executar a requisição</string>
+    <string name="error_cadastro">Ocorreu um erro ao efetuar o cadastro. Por favor tente novamente.</string>
+    <string name="error_no_internet_connection">Você parece estar sem conexão com a internet</string>
+    <string name="error_communication">Problemas de comunicação com o servidor</string>
+    <string name="message_no_items">Sem itens a serem exibidos</string>
+    <string name="error_location">Não foi possível encontrar sua localização!</string>
+
+    <!-- COMMON -->
+    <string name="label_messages">Mensagens</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_attention">Atenção</string>
+    <string name="label_yes">Sim</string>
+    <string name="label_no">Não</string>
+    <string name="label_open">Abrir</string>
+    <string name="label_close">Fechar</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="default_url_separator">%20</string>
+
+    <!--public void onCreate() {-->
+    <!--Parse.initialize(this, "W1rKmcu0ia0uEPixXMTGDkJxfpw8xRkckUe6iYWE", "VVjqVLLEn5aSXclE1VPK8IhGZPEKCsd98FcGI3oN");-->
+    <!--ParseInstallation.getCurrentInstallation().saveInBackground();-->
+    <!--}-->
+
+    <string name="todas">TODAS</string>
+    <string name="selecione_campos">Selecione todos os campos para continuar</string>
+    <string name="or">OU</string>
+    <string name="compare_passagem">Compare preços de agências e companhias aéreas.</string>
+
+    <!--CalendarUtils-->
+    <string name="sunShort">Dom</string>
+    <string name="monShort">Seg</string>
+    <string name="tueShort">Ter</string>
+    <string name="wedShort">Qua</string>
+    <string name="thuShort">Qui</string>
+    <string name="friShort">Sex</string>
+    <string name="satShort">Sab</string>
+    <string name="janShort">Jan</string>
+    <string name="febShort">Fev</string>
+    <string name="marShort">Mar</string>
+    <string name="aprShort">Abr</string>
+    <string name="mayShort">Mai</string>
+    <string name="junShort">Jun</string>
+    <string name="julShort">Jul</string>
+    <string name="augShort">Ago</string>
+    <string name="sepShort">Set</string>
+    <string name="octShort">Out</string>
+    <string name="novShort">Nov</string>
+    <string name="decShort">Dez</string>
+    <string name="jan">Janeiro</string>
+    <string name="feb">Fevereiro</string>
+    <string name="mar">Março</string>
+    <string name="apr">Abril</string>
+    <string name="may">Maio</string>
+    <string name="jun">Junho</string>
+    <string name="jul">Julho</string>
+    <string name="aug">Agosto</string>
+    <string name="sep">Setembro</string>
+    <string name="oct">Outubro</string>
+    <string name="nov">Novembro</string>
+    <string name="dec">Dezembro</string>
+
+
+    <!--library-->
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="confirm">CONFIRMAR</string>
+    <string name="change_date">TROCAR DATA</string>
+    <string name="success_theme_change">Tema alterado com sucesso!</string>
+    <string name="progress_dialog_wait">Aguarde…</string>
+    <string name="lost_conn_alert_message">Erro na conexão. Por favor, tente novamete.</string>
+    <string name="invalid_session_alert_message">Erro na sessão. Por favor, faça o login novamente.</string>
+    <string name="forget_result_notOk">Falha de comunicação com o servidor.</string>
 </resources>
